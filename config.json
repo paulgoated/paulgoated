@@ -1,0 +1,112 @@
+{
+  "username": "rafaelvons",
+  "timezone_offset_hours": 7,
+  "theme": {
+    "bg": "#0f1115",
+    "panel": "#161a21",
+    "border": "#262b35",
+    "grid": "#1d222b",
+    "text": "#e8eaed",
+    "muted": "#8a919c",
+    "dim": "#4b525e",
+    "accent": "#ffb000"
+  },
+  "hero": {
+    "status": "ONLINE · {location} · UTC+07",
+    "location_fallback": "Medan, ID",
+    "name": null,
+    "subtitle": "RAFAEL VONSEKA SIANTURI",
+    "bio": "CS student at USU building IoT × machine learning systems, from the ESP32 to the dashboard.",
+    "tags": [
+      "IoT",
+      "MACHINE LEARNING",
+      "FULLSTACK"
+    ],
+    "panel_caption": "mfcc · 20 coeff → svm"
+  },
+  "spec": {
+    "title": "spec sheet",
+    "rows": [
+      [
+        "Role",
+        "Computer Science student · USU"
+      ],
+      [
+        "Focus",
+        "IoT × Machine Learning"
+      ],
+      [
+        "Thesis",
+        "Baby-cry classification · SVM + MFCC"
+      ],
+      [
+        "Hardware",
+        "ESP32 · INMP441 · SD card"
+      ],
+      [
+        "Web",
+        "FastAPI · Next.js · Firebase"
+      ],
+      [
+        "Also built",
+        "rbx-account-manager · Rust"
+      ],
+      [
+        "OS",
+        "Linux"
+      ],
+      [
+        "Side quest",
+        "Tinkering with open-source music players"
+      ]
+    ]
+  },
+  "stack": {
+    "title": "tech stack",
+    "groups": [
+      {
+        "label": "Lang",
+        "auto_languages": true,
+        "max": 6,
+        "items": []
+      },
+      {
+        "label": "Web",
+        "items": [
+          "FastAPI",
+          "Next.js",
+          "React",
+          "Flutter"
+        ]
+      },
+      {
+        "label": "IoT",
+        "items": [
+          "ESP32",
+          "INMP441",
+          "Arduino IDE",
+          "I2S",
+          "SPI"
+        ]
+      },
+      {
+        "label": "Data",
+        "items": [
+          "scikit-learn",
+          "Librosa",
+          "Firebase",
+          "Supabase",
+          "Colab"
+        ]
+      }
+    ]
+  },
+  "telemetry_tiles": [
+    "contrib",
+    "repos",
+    "languages",
+    "followers"
+  ],
+  "repo_cards": 2,
+  "repos": []
+}
