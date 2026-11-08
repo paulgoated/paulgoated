@@ -302,7 +302,7 @@ def fetch(today):
     login = CFG["username"]
     year_from = f"{today[:4]}-01-01T00:00:00Z"
     q = f"""query($login:String!,$from:DateTime!){{ user(login:$login){{
-      login name bio location avatarUrl(size:256) followers{{totalCount}} publicRepos: repositories(privacy:PUBLIC){{totalCount}}
+      login name bio location avatarUrl(size:256) followers{{totalCount}} publicRepos: repositories(privacy:PUBLIC,ownerAffiliations:OWNER){{totalCount}}
       pinnedItems(first:6,types:REPOSITORY){{ nodes{{ ... on Repository{{ name description stargazerCount url isFork primaryLanguage{{name}} }} }} }}
       owned: repositories(ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,first:100,orderBy:{{field:PUSHED_AT,direction:DESC}}){{ nodes{{
         name description stargazerCount url primaryLanguage{{name}}
